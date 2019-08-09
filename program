@@ -5,7 +5,7 @@ void main()
 int x,p,s=0;
 scanf("%d %d",&x,&p);
 p=100-p;
-while(x>=0 || x<=10000)
+while(x>0)
 {
   s=s+x;
   x=(p*x)/100;
